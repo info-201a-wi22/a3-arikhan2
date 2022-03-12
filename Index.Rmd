@@ -1,0 +1,39 @@
+---
+title: "Arianna's Report on Incarceration in the US"
+author: "Arianna"
+date: "2/28/2022"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+setwd("/Users/ariannakhan/Documents/Info201Code/a3-arikhan2")
+source("analysis.R")
+```
+
+## Introduction and Summary Information
+
+Welcome to Arianna’s website. This website was based on a report of incarceration data collected from America's prison and jailing system.  This raw data included census reports of prisons and divided them into rage, gender, age, location, and more. This website will focus on the incarceration of underrepresented minorities in America; the Latinx and Black population.  It will compare these minorities to the incarceration of the White population in America.  This should be interesting because we may get a better idea to see if racism in Ammerica has an effect on the incarceration population.  For example, when investigating the incarceration of Latinx people in America, the average is roughly **33** compared to **81** Black people and **90** White people.  These are interesting data points to keep in mind.  This shows that the average White person is actually more likely to be in prison compared to Black and Latinx people.  After looking into which state had the highest nuber of black and latinx incarceration, it's clear that California has the highest number of incarceration for both the black and latinx population.  **CA had reported the max for the highest jail population, highest incarceration of black people and highest incarceration of latinx people.**    
+
+
+## Trends over time chart
+```{r, include=TRUE, echo=FALSE}
+latinx_trends + white_trends
+
+```
+
+These charts show the incarceration trends by race over time.  On the left, we evaluate the latinx population in jail over time, and on the right, we can see the white population in jail over time.  It's interesting to see how these two races compare and how their population in jail changes over time.  I think that overall, there's a clear peak where both races had a high number of incarcerations around 2010.  It's also interesting to see that the white population in jail is slightly increasing after the peak, compared to the latinx population in jail.  You might think that they would be inversed due to the racism and stigmas in America, but the data shows otherwise.
+
+#Comparing two variables chart
+```{r include=TRUE, echo=FALSE}
+pie_chart
+```
+
+For this chart, I decided to use a pie chart to compare two variables in the incarceration dataset.  This pie chart examines the percentage of underrepresented versus white population in jail for the year 2010.  For the underrepresented population, I summed up the total black and latinx population reports in jail.  I thought it would be interesting to examine these population reports for the year 2010 since in the last graph, that's roughly where incarceration in America peaked. Here, we can see that the white population incarcerated is less than the underrepresented population.  This is only by 10.4% with a population of 44.8% white and 55.2% underrepresented. 
+
+
+#Map 
+```{r include=TRUE, echo=FALSE}
+map1
+```
+
+This map represents the total latinx population in jail for the year 2010.  Here, we can see that most latinx incarceration is in the southwest including Southern California and Texas.  Overall, however, most of the incarceration trends for latinx people across America seems to be pretty steady; there are not many places with a high level of the latinx population in jail.  In fact, there may only be a high level of latinx population in jail in southern California because there is a high population of latinx people there already.  Given the race issues and stigma around America's incarceration system, one might expect to see this map more populated with incarceration of latinx people, however this is not the case.  
