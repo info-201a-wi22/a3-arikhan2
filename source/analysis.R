@@ -83,26 +83,11 @@ bar <- data.frame(race, stats, percent)
 #creating a pie chart - comparing white incarceration to 'underrepresented'
 #underrepresented = black and latinx population
 
-#slices <- c(112.312, 138.6206)
-# lbls <- c("White", "Underrepresented")
-# piepercent<- (round(100*slices/sum(slices), 1))
-
-
 ok <- ggplot(bar, aes(x = "Race", y = percent, fill = race)) +
   geom_col(color = "black") +
   geom_text(aes(label = percent),
             position = position_stack(vjust = 0.5)) +
   coord_polar(theta = "y")
-
- 
-# pie_chart<- pie(slices, 
-#                 labels = piepercent, 
-#                 radius = .7, 
-#                 main = "Average Incarceration in 2010; White vs. Underrepresented",
-#                 col = rainbow(length(slices)))
-# legend("topleft", c("White","Underrepresented"), cex = 0.8,
-#        fill = rainbow(length(slices)))
-
 
 
 #dataset for the map
