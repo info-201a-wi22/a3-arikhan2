@@ -6,7 +6,6 @@ output: html_document
 ---
 
 ```{r setup, include=FALSE}
-setwd("/Users/ariannakhan/Documents/Info201Code/a3-arikhan2")
 source("analysis.R")
 ```
 
