@@ -6,7 +6,7 @@ output: html_document
 ---
 
 ```{r setup, include=FALSE}
-source("analysis.R")
+source("../source/analysis.R")
 ```
 
 ## Introduction and Summary Information
