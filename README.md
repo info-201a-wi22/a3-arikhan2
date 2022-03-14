@@ -18,7 +18,3 @@ In this assignment, you'll create the necessary files to perform the analysis de
 
 An introduction of the problem domain and a description of the variable(s) you are choosing to analyze (and why!)
 A paragraph of summary information, citing at least 5 values calculated from the data
-
-Intrduction -
-
-I will be investigating underrepresented groups (black, latinx) and how they are affected by the prison system in the US.  Specifically jails.  
